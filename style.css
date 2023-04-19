@@ -69,6 +69,7 @@
     align-items: center;
     padding: 10px;
 }
+
 .caja-7{
     background-color: rgb(26, 25, 25);
     height: 40px;
@@ -110,12 +111,20 @@
     margin-top: 50px;
     display: flex;
 }
+.date {
+    width: 20%;
+}
+.descript {
+    width: 80%;
+    text-align: justify;
+
+}
 
 .caja-d-3 {
-    height: 300px;
+    height: 500px;
     margin: 0;
     justify-content: left;
-    align-items: center;
+    align-items: center;    
 }
 
 .caja-d-3 h1{
@@ -124,6 +133,7 @@
     width: 100%;
     padding: 10px 0;
 }
+
 
 .caja-d-4 {
 }

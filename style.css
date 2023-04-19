@@ -1,21 +1,33 @@
+body {
+    font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+}
+
 .container {
     display: grid;
     grid-template-columns: 30% 70%;
     grid-template-rows: auto;
     height: auto;
-  }
-  
-  .column-left {
+}
+
+.column-left {
     display: block;
     padding: 0;
     color: white;
-  }
-  
+}
+
 .caja-1 {
     background-color: rgb(73, 73, 73);
-    height: 120px;
+    height: 100px;
     padding: 10px;
     text-align: left;
+}
+
+.caja-1 h1 {
+    margin: 30px 0 0 0;
+}
+
+.caja-1 p {
+    margin-top: 0;
 }
 
 
@@ -42,20 +54,24 @@
     justify-content: center;
     align-items: center;
 }
-.caja-4{
+
+.caja-4 {
     background-color: rgb(73, 73, 73);
     padding: 10px;
     display: block;
 }
+
 .caja-4 h4 {
     margin-top: 1px;
     margin-bottom: 1px;
 }
+
 .caja-4 p {
     margin: 0;
     margin-bottom: 10px;
 }
-.caja-5{
+
+.caja-5 {
     background-color: rgb(26, 25, 25);
     height: 40px;
     text-align: center;
@@ -63,14 +79,15 @@
     justify-content: center;
     align-items: center;
 }
-.caja-6{
+
+.caja-6 {
     background-color: rgb(73, 73, 73);
     justify-content: center;
     align-items: center;
     padding: 10px;
 }
 
-.caja-7{
+.caja-7 {
     background-color: rgb(26, 25, 25);
     height: 40px;
     text-align: center;
@@ -78,7 +95,8 @@
     justify-content: center;
     align-items: center;
 }
-.caja-8{
+
+.caja-8 {
     background-color: rgb(73, 73, 73);
     justify-content: center;
     align-items: center;
@@ -89,45 +107,62 @@
     background-color: #eee;
     padding: 20px 0 0 20px;
     display: block;
-  }
+}
 
 .caja-d-1 {
-    height: 100px;
-    margin: 0;
+    height: 90px;
+    margin: 0 0;
 }
+
+.caja-d-1 p {
+    margin: 0 0;
+}
+
 .caja-d-2 {
-    height: 500px;
-    margin: 0;
+    height: 400px;
+    margin: 0 0;
     justify-content: left;
-    align-items: center;    
+    align-items: center;
+    padding: 0;
 }
+
 .caja-d-2 h1 {
     border-bottom: 1px solid grey;
     border-top: 1px solid grey;
     width: 100%;
-    padding: 10px 0;
+    padding: 5px 0;
 }
-.experiencia{
-    margin-top: 50px;
+
+.experiencia {
+    margin-top: 10px;
     display: flex;
 }
+
 .date {
     width: 20%;
+    padding: 0 auto;
 }
+
+.date p {
+    margin: 5px;
+}
+
 .descript {
     width: 80%;
     text-align: justify;
+}
 
+.descript h2 {
+    margin: 0;
 }
 
 .caja-d-3 {
-    height: 500px;
+    height: 250px;
     margin: 0;
-    justify-content: left;
-    align-items: center;    
+    align-items: center;
 }
 
-.caja-d-3 h1{
+.caja-d-3 h1 {
     border-bottom: 1px solid grey;
     border-top: 1px solid grey;
     width: 100%;
@@ -135,7 +170,6 @@
 }
 
 
-.caja-d-4 {
-}
-.caja-d-5 {
-}
+.caja-d-4 {}
+
+.caja-d-5 {}
